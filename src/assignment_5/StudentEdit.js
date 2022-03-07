@@ -16,7 +16,7 @@ const StudentEdit = (props) => {
     console.log(data)
 
    useEffect(() => {
-       const student =  data.filter(e => e.ID == studentid);
+       const student =  data.filter(e => e.ID === studentid);
        console.log(student);
        setName(student[0].name);
        setAge(student[0].age);
