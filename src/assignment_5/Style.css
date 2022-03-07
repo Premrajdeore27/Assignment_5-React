@@ -1,0 +1,68 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.navbar{
+    display: flex;
+    align-items:stretch;
+    justify-content: space-around;
+    background-color: rgb(15, 15, 15);
+    height: 60px;
+    border: 1px solid transparent;
+    box-sizing: border-box;
+    font-family: cursive;
+
+}
+
+.tx{
+    font-size: large;
+    position: relative;
+    bottom: 100px;
+    color: navajowhite;
+    
+}
+.link{
+    color: white;
+    text-decoration: none;
+    font-size: x-large; 
+}
+.link:focus{
+    background-color: aqua;
+    color: navy;
+}
+
+.heading{
+    color: black;
+}
+#mytable{
+   position: absolute;
+   top: 26%;
+   left: 10%;
+   width: 80%;
+   
+}
+#btn{
+    position: absolute;
+    right: 137px;
+    top: 92px;
+}
+
+.home{
+    color: red;
+    background-color: aquamarine;
+    font-size: xx-large;
+    width: 500px;
+    position: absolute;
+    left: 500px;
+    text-align: center;
+}
+
+.contact{
+    color: red;
+    background-color: aquamarine;
+    font-size: xx-large;
+    width: 500px;
+    position: absolute;
+    left: 500px;
+    text-align: center;
+}
