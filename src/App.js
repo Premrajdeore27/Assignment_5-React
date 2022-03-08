@@ -56,7 +56,7 @@ class App extends Component {
   updateUser(studentid, tempObj){
     console.log(tempObj);
     this.state.arr.forEach((e) => {
-      if(e.ID === studentid){
+      if(e.ID == studentid){
         this.state.arr.splice(studentid-1, 1, tempObj)
       }
 
@@ -65,7 +65,7 @@ class App extends Component {
   }
   deleteUser(studentid){
     this.state.arr.forEach((e) => {
-      if(e.ID === studentid){
+      if(e.ID == studentid){
         this.state.arr.splice(studentid-1, 1)
       }
 
